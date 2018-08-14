@@ -8,16 +8,16 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner s=new Scanner(System.in);
-        int n1=s.nextInt();
-        int n2=s.nextInt();
+        int N=s.nextInt();
+        int M=s.nextInt();
         int result=0;
-        if(n1>n2)
+        if(N>M)
         {
-            result=n1-n2;
+            result=N-M;
         }
-       else if(n2>n1)
+       else if(M>N)
        {
-           result=n2-n1;
+           result=M-N;
         }
         if(result%2==0)
        {
