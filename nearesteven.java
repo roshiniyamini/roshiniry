@@ -9,16 +9,16 @@ class Ideone
 	{
 		Scanner s=new Scanner(System.in);
 		int n=s.nextInt();
-		int ans=0;
+		int result=0;
 		if(n%2==0)
 		{
 			ans=n-2;
-			System.out.println(ans);
+			System.out.println(result);
 		}
 		else
 		{
 			ans=n-1;
-			System.out.println(ans);
+			System.out.println(result);
 		}
 	}
 }
